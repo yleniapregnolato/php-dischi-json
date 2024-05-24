@@ -24,8 +24,8 @@
         <div class="container">
             <div class="row row-col-3">
                 <div class="col" v-for="disk in disks">
-                    <div class="card d-flex" style="width: 18rem;">
-                        <img :src="disk.poster" alt="" class="img-thumbnail">
+                    <div class="card d-flex pt-3 ps-4 pe-4 mb-3" style="width: 18rem;">
+                        <img :src="disk.poster" alt="" class="mx-auto d-block w-50">
                         <div class="card-body">
                             <p class="card-text text-center">{{ disk.title }}</p>
                             <p class="card-text text-center">{{ disk.author }}</p>
