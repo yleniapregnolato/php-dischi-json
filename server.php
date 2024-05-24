@@ -7,7 +7,7 @@ $dischi_array = json_decode($dischi_json, true); // array
 
 // gestione della risposta:
 $response = [
-    "result" => $dischi_array,
+    "results" => $dischi_array,
     "success" => true
 ];
 
