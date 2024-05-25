@@ -1,0 +1,13 @@
+body {
+    background-color: #1D2D3C;
+}
+
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #112030;
+}

@@ -17,14 +17,18 @@
     <!-- vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue js -->
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- /custom css -->
 </head>
 
 <body>
     <div id="app">
-        <div class="container">
+        <div class="ms_container">
             <div class="row row-col-3">
-                <div class="col" v-for="disk in disks">
-                    <div class="card d-flex pt-3 ps-4 pe-4 mb-3" style="width: 18rem;">
+                <div class="col-4" v-for="disk in disks">
+                    <div class="card d-flex pt-3 ps-2 pe-2 mb-3 text-light" style="width: 18rem;">
                         <img :src="disk.poster" alt="" class="mx-auto d-block w-50">
                         <div class="card-body">
                             <p class="card-text text-center">{{ disk.title }}</p>
